@@ -30,7 +30,7 @@ const Projects = () => {
           >
             <div className="project-content">
               <div className="project-header">
-                <h3 className="project-title">E-Commerce Platform</h3>
+                <h3 className="project-title"><a href="https://steady-paletas-7c047f.netlify.app">E-Commerce Platform</a></h3>
                 <p className="project-date">Oct 2024 – Nov 2024</p>
               </div>
               <p className="project-tech">React, Tailwind, NodeJS, Express, Redux-toolkit, MongoDB, APIs</p>
