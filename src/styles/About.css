@@ -1,0 +1,76 @@
+.about {
+    background: #1a1a1a;
+  }
+  
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto 3rem;
+  }
+  
+  .about-text {
+    font-size: 1.1rem;
+    color: #b0b0b0;
+    text-align: center;
+  }
+  
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    margin-top: 2rem;
+  }
+  
+  .skills-container,
+  .education-container {
+    padding: 1rem;
+  }
+  
+  .subheading {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+  }
+  
+  .skills-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1rem;
+  }
+  
+  .skills-list li {
+    background: #2a2a2a;
+    padding: 0.8rem;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1rem;
+    color: #e0e0e0;
+    transition: transform 0.3s ease;
+  }
+  
+  .skills-list li:hover {
+    transform: translateY(-5px);
+  }
+  
+  .education-item {
+    margin-bottom: 2rem;
+  }
+  
+  .education-item h4 {
+    font-size: 1.3rem;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+  }
+  
+  .education-item p {
+    font-size: 1rem;
+    color: #b0b0b0;
+    margin-bottom: 0.3rem;
+  }
+  
+  @media (max-width: 1024px) {
+    .about-grid {
+      grid-template-columns: 1fr;
+    }
+  }

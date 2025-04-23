@@ -1,0 +1,61 @@
+.contact {
+    text-align: center;
+  }
+  
+  .contact-text {
+    font-size: 1.2rem;
+    color: #b0b0b0;
+    max-width: 600px;
+    margin: 0 auto 3rem;
+  }
+  
+  .contact-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .contact-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.8rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .email-btn {
+    background: #64b5f6;
+    color: #ffffff;
+  }
+  
+  .email-btn:hover {
+    background: #42a5f5;
+  }
+  
+  .linkedin-btn {
+    background: #0077b5;
+    color: #ffffff;
+  }
+  
+  .linkedin-btn:hover {
+    background: #005f8f;
+  }
+  
+  .github-btn {
+    background: #333;
+    color: #ffffff;
+  }
+  
+  .github-btn:hover {
+    background: #222;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-buttons {
+      flex-direction: column;
+    }
+  }
