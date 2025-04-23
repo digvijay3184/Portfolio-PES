@@ -54,14 +54,14 @@ const About = () => {
               <li>Express</li>
               <li>Git</li>
               <li>GitHub</li>
+              <li>Data Structures and Algorithms</li>
+              <li>Responsive Web Design</li>
+              <li>Backend Development</li>
             </ul>
             <h3 className="subheading">Soft Skills</h3>
             <ul className="skills-list">
               <li>Problem-Solving</li>
               <li>Team Collaboration</li>
-              <li>Data Structures and Algorithms</li>
-              <li>Responsive Web Design</li>
-              <li>Backend Development</li>
             </ul>
           </div>
           <div className="education-container">
